@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mouse clicker</title>
+    <link rel="icon" href="mouse-cursor.png">
+    <noscript>Your browser does not support JavaScript!</noscript>
+</head>
+
+<body>
+    <form>
+        <p>Left Clicks: <span id="leftCount">0</span></p>
+        <p>Right Clicks: <span id="rightCount">0</></p>
+        <button onmousedown="clickIncrement(event)" oncontextmenu="return false;" type="button">Click me!</button>
+        <button onclick="rst()" type="button">Reset</button>
+    </form>
+    <script src="mouse-clicker.js"></script>
+</body>
+</html>
